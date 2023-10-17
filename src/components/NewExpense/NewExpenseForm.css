@@ -1,0 +1,42 @@
+.NewExpenseForm{
+    display: flex;
+    padding: 10px;
+    flex-flow: row wrap;
+}
+
+.inputWrapper{
+    padding: 5px;
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input:focus{
+    outline: none;
+    background-color: #eee;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[name="submit"]{
+    font-weight: bold;
+    width: 100%;
+    padding: 7px;
+    margin: 15px 5px 5px 5px;
+    background: #f44336;
+    color: #fff;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 3px solid #ffcaca;
+    cursor: pointer;
+    transition: 0.3s;
+}
+input[name="submit"]:hover{
+    opacity: 0.7;
+}

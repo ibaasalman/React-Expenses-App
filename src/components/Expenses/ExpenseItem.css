@@ -1,0 +1,21 @@
+.exitem{
+    background: #3b4550;
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+    font-size: 22px;
+    margin-top: 5px;
+    align-items: center;
+}
+.extitle{
+    
+    text-transform: capitalize;
+}
+.examount{
+    background: #ee5253;
+    padding: 2px 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: auto;
+}
