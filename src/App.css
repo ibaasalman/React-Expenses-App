@@ -10,4 +10,9 @@ h1{
     background: #10ac84;
     padding: 10px;
 }
+h2{
+    padding: 10px;
+    border-bottom: 2px solid #10ac84;
+    background: #0e9472;
+}
 

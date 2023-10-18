@@ -1,3 +1,7 @@
 .NewExpense{
-    border-bottom: 5px solid #00897b;
+    border: 2px solid #10ac84;
+    width: 50%;
+    margin: 10px;
+    background: #3b4550;
+    border-radius: 7px;
 }

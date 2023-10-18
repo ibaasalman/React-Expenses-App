@@ -8,6 +8,7 @@ function Expenses({ items }) {
       {items.map((i) => {
         return (
           <ExpenseItem
+          key={i.id}
             title={i.title}
             price={i.price}
             date={i.date}
