@@ -1,0 +1,13 @@
+.chart {
+  border: 2px solid #10ac84;
+  width: calc(50% - 20px);
+  margin: 10px;
+  min-width: 400px;
+  background: #3b4550;
+  border-radius: 7px;
+  padding: 10px 30px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  min-height: 200px;
+}

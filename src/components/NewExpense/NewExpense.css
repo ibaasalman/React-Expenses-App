@@ -1,6 +1,8 @@
 .NewExpense{
     border: 2px solid #10ac84;
     width: 50%;
+    width: calc(50% - 20px);
+    min-width: 350px;
     margin: 10px;
     background: #3b4550;
     border-radius: 7px;
